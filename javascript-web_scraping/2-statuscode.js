@@ -6,6 +6,6 @@ request.get(apiUrl, (err, response) => {
   if (err) {
     console.error(err);
   } else {
-    console.log('code: ', response.statusCode);
+    console.log('code:', response.statusCode);
   }
 });
